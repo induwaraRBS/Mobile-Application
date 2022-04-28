@@ -19,7 +19,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="0.9"
-        android:background="@drawable/ic_google_pixel_6_pro___1" />
+        android:background="@drawable/ic_google_pixel_6_pro___1"/> >
+
+        <ImageButton
+            android:id="@+id/bttnimagefb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="70dp"
+            android:background="@drawable/fb"
+            android:alpha="0.7"
+             />
+
+    <ImageButton
+        android:id="@+id/bttnimagegoogle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/google"
+        android:alpha="0.7"
+        />
 
     <Button
         android:id="@+id/bttngotosignup"
